@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 FirebaseConnector firebaseConnector = new FirebaseConnector();
                 firebaseConnector.connect();
-            /*    DBLeadController leadController = new DBLeadController(getApplicationContext());
+                DBLeadController leadController = new DBLeadController(getApplicationContext());
                 Lead leadToStore = new Lead();
                 EditText name =  findViewById(R.id.LeadName);
                 EditText lastName =  findViewById(R.id.LeadLastName);
@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
                 leadToStore.setEmail(leadEmail.getText().toString());
                 leadController.writeLeadDB(leadToStore);
                 Intent myIntent = new Intent(MainActivity.this, LeadListed.class);
-                MainActivity.this.startActivity(myIntent);*/
+                MainActivity.this.startActivity(myIntent);
             }
         });
 
