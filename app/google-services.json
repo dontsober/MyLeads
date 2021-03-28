@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "327148706544",
+    "project_id": "myleads-31093",
+    "storage_bucket": "myleads-31093.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327148706544:android:3996c290f64761b5afc035",
+        "android_client_info": {
+          "package_name": "com.DrPizza.MyLeads"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "327148706544-38vfslh8gsvbvkld57qpie6s460egc9j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKUNYoSAc0G4J1UgSrva8PGphYKRbrz7s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "327148706544-38vfslh8gsvbvkld57qpie6s460egc9j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327148706544:android:6dab3d1d20157b74afc035",
+        "android_client_info": {
+          "package_name": "com.sarmale.myleads"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "327148706544-38vfslh8gsvbvkld57qpie6s460egc9j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKUNYoSAc0G4J1UgSrva8PGphYKRbrz7s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "327148706544-38vfslh8gsvbvkld57qpie6s460egc9j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
