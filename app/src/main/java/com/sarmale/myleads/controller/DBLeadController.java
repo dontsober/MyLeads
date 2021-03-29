@@ -99,18 +99,6 @@ public class DBLeadController {
 
     public Boolean updateLead(Lead lead)
     {
-       /* String updateQuery = "UPDATE "+DBDefinition.LeadsEntry.TABLE_NAME+" SET "
-                + DBDefinition.LeadsEntry.COLUMN_NAME_NAME +" = "+lead.getName()
-                + DBDefinition.LeadsEntry.COLUMN_NAME_LASTNAME +" = "+lead.getLastName()
-                + DBDefinition.LeadsEntry.COLUMN_NAME_PHONE +" = "+lead.getPhone()
-                + DBDefinition.LeadsEntry.COLUMN_NAME_EMAIL +" = "+lead.getEmail()
-                + " WHERE " + BaseColumns._ID + " = " + lead.getId();
-
-        //String updateQuery = "UPDATE "+DBDefinition.LeadsEntry.TABLE_NAME+" SET name = "+"'"++"' "+ "WHERE salary = "+"'"++"'";
-
-        DBLeadsHelper dbHelper = new DBLeadsHelper(context);
-        SQLiteDatabase db = dbHelper.getWritableDatabase();
-        db.execSQL(updateQuery);*/
         ContentValues cv = new ContentValues();
 
         cv.put(DBDefinition.LeadsEntry.COLUMN_NAME_NAME,lead.getName());
