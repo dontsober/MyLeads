@@ -5,10 +5,9 @@ import com.google.firebase.database.FirebaseDatabase;
 
 public class FirebaseConnector {
 
-    public void connect(){
+    public DatabaseReference connect(){
         FirebaseDatabase database = FirebaseDatabase.getInstance();
-        DatabaseReference myRef = database.getReference("message");
-
-        myRef.setValue("Hello, World!");
+        DatabaseReference myRef = database.getReference("");
+        return myRef;
     }
 }
