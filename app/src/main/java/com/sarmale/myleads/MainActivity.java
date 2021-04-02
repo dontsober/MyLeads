@@ -7,14 +7,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 
 import com.sarmale.myleads.controller.DBLeadController;
-import com.sarmale.myleads.firebase.FirebaseConnector;
-import com.sarmale.myleads.firebase.FirebaseInterface;
+import com.sarmale.myleads.firebase.FirebaseLogic;
 import com.sarmale.myleads.model.Lead;
-
-import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -38,9 +34,9 @@ public class MainActivity extends AppCompatActivity {
                 leadToStore.setLastName(lastName.getText().toString());
                 leadToStore.setPhone(leadPhone.getText().toString());
                 leadToStore.setEmail(leadEmail.getText().toString());
-                leadController.writeLeadDB(leadToStore);
+               // leadController.writeLeadDB(leadToStore);
                 //to Firebase
-                FirebaseInterface firebase = new FirebaseInterface();
+                FirebaseLogic firebase = new FirebaseLogic();
                 firebase.postLeadToFirebase(leadToStore);
                 Intent myIntent = new Intent(MainActivity.this, LeadListed.class);
                 MainActivity.this.startActivity(myIntent);
